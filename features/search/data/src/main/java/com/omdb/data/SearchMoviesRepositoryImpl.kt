@@ -10,7 +10,6 @@ class SearchMoviesRepositoryImpl @Inject constructor(
 ): com.omdb.domain.SearchMoviesRepository {
 
     override suspend fun searchForMovies(text: String, page: Int): Result<List<Movie>> {
-        delay(1000)
         return apiCall {
             searchMoviesApiService.searchMoviesFor(text, page)
         }.mapToResult().map {
