@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Omdb Compose</string>
+    <string name="votes">%s votes</string>
+    <string name="crew_members"><![CDATA[<b>Director:</b> %1$s <br> <b>Writer: </b> %2$s <br>  <b>Stars: </b>%3$s]]></string>
+    <string name="movie_details_error">Error loading movie details</string>
+    <string name="search_for_a_movie">Search for a movie…</string>
+    <string name="welcome_to_movie_app">Welcome to the Omdb App!\n\nSearch for a movie in the search box!</string>
+    <string name="No_results_found">No results found</string>
+    <string name="try_again">Try again</string>
+</resources>
